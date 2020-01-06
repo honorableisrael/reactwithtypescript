@@ -38,7 +38,7 @@ return (
             <input type="text" name='Name' value={userName} onChange={(e)=>setUserName(e.target.value)}/>
             <p>{state.todos.Name}</p>
             <p><AddListForm/></p>
-            <button onClick={()=>SubmitForm()}>Send</button>
+            {/* <button onClick={()=>SubmitForm()}>Send</button> */}
         </div>
     )
 }
